@@ -1,0 +1,10 @@
+.selection__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.product_info{
+    height: 50%;
+    margin-bottom: 15px;
+}
