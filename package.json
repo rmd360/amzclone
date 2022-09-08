@@ -2,6 +2,7 @@
   "name": "amz",
   "version": "0.1.0",
   "private": true,
+  "home":"https://rmd360.github.io/amzclone/",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
