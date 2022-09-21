@@ -18,8 +18,14 @@ function Checkout() {
 
         <div>
           <h3>Hello, {user?.email}</h3>
+          <h3>Delivery Address</h3>
+          <div>{user?.email}</div>
+          <div>
+            <p>Vip circle - 452548</p>
+            <p>Surat</p>
+          </div>
           <h2 className="checkout__title">Your shopping Basket</h2>
-
+        
           {basket.map(item => (
             <CheckoutProduct
               id={item.id}
@@ -34,7 +40,7 @@ function Checkout() {
       </div>
 
       <div className="checkout__right">
-        <Subtotal />
+        <Subtotal/>
       </div>
     </div>
   );

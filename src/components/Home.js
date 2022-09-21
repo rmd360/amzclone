@@ -109,6 +109,22 @@ const Home = () => {
             image="https://m.media-amazon.com/images/I/817nACfY-rL._AC_UX395_.jpg"
             />
         </div>
+        <div className="home__row">
+          <Product
+            id="47523698"
+            title="Lenovo - 2022 - IdeaPad 3i - Essential Laptop Computer - Intel Core i5 12th Gen - 15.6"
+            price={520}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/71LsYu32caL._AC_SX679_.jpg"
+          />
+          <Product
+            id="52369874"
+            title="Apple iPhone XR, 128GB, Black - Unlocked (Renewed Premium)"
+            price={399}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51jGBS1Bs8L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+          />
+        </div>
       </div>
     </div>
   );

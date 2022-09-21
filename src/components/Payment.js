@@ -5,16 +5,22 @@ import {
   useStripe,
   useElements,
 } from "@stripe/react-stripe-js";
+import { useStateValue } from "../StateProvider";
 import { loadStripe } from "@stripe/stripe-js";
 import "./Payment.css";
+
+
 const Payment = () => {
+  const [{ user }, dispatch] = useStateValue();
   const stripe = loadStripe(
     "pk_test_JJ1eMdKN0Hp4UFJ6kWXWO4ix00jtXzq5XG"
   );
   return (
+    
     <Elements stripe={stripe}>
       <CheckoutForm />
     </Elements>
+    
   );
 };
 function CheckoutForm() {

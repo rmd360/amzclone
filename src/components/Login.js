@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 
-function Login() {
+const Login = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -15,7 +15,7 @@ function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        navigate.push("/");
+        navigate("/");
       })
       .catch((error) => alert(error.message));
   };    
@@ -28,7 +28,7 @@ function Login() {
       .then((auth) => {
         // it successfully created a new user with email and password
         if (auth) {
-          navigate.push("/");
+          navigate("/");
         }
       })
       .catch((error) => alert(error.message));
