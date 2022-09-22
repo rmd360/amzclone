@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# watch project live at firebase : 
+# Watch project live at firebase : 
 
 https://amz-clone-medium-ea034.web.app/
 
