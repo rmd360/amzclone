@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
 import Checkout from "./components/Checkout";
 import Payment from "./components/Payment";
+import Footer from "./components/Footer";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -52,6 +53,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Footer />} />
         </Routes>
       </BrowserRouter>
     </div>
