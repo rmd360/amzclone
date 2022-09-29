@@ -87,27 +87,27 @@ const Home = () => {
           />
         </div>
         <div className="home__row">
-        <Product 
-            id='56325895'
+          <Product
+            id="56325895"
             title="SAMSUNG 65-Inch Class Neo QLED QN85A Series - 4K UHD Quantum HDR 24x Smart TV with Alexa Built-in and 6 speaker Object Tracking Sound - 60W"
             price={1647.0}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/51SgFI7ZtWL._AC_SX184_.jpg"
           />
-        <Product
+          <Product
             id="89765489"
             title="Bulova Men's Watch"
             price={316}
             rating={4}
             image="https://m.media-amazon.com/images/I/81io8OejSiL._AC_UX522_.jpg"
-        />
-        <Product
+          />
+          <Product
             id="47856921"
             title="Under Armour Men's Ignite Vi Graphic Strap Slide Sandal"
             price={25}
             rating={5}
             image="https://m.media-amazon.com/images/I/817nACfY-rL._AC_UX395_.jpg"
-            />
+          />
         </div>
         <div className="home__row">
           <Product

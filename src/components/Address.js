@@ -9,10 +9,10 @@ const appStyles = {
 
 const Address = () => {
   const [selectedAddress, setSelectedAddress] = useState({})
-  const [verificationResult, setVerificationResult] = useState(null)
+  const [verificationResult, setVerificationResult] = useState()
 
   const verifyAddress = () =>
-    verify("test_pub_d78b0d98bf600bcc12eb46dd19bc638", selectedAddress)
+    verify("live_pub_60c1bd6e5d322f65511cea4e75ad0fb", selectedAddress)
       .then((result) => {
         // Simplify response into something readable to the user
         const summary = `This address is ${result.deliverability}`

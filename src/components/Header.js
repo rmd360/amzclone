@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
@@ -8,6 +8,7 @@ import { auth }  from "../firebase";
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
+  const [search,setSearch] = useState("");
 
   const handleAuthenticaton = () => {
     if (user) {
@@ -26,7 +27,7 @@ function Header() {
       </Link>
 
       <div className="header__search">
-        <input className="header__searchInput" type="text" />
+        <input className="header__searchInput" type="text" value={search} onChange={event => setSearch(event.target.value)}/>
         <SearchIcon className="header__searchIcon" />
       </div>
 
