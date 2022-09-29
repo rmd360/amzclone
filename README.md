@@ -4,6 +4,8 @@
 
 https://amz-clone-medium-ea034.web.app/
 
+https://amz-clone-medium-ea034.firebaseapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
