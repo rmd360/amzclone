@@ -10,33 +10,33 @@ function Footer() {
       <div className="footer-middle">
         <div className="footer-row">
           <h3>Get to Know Us</h3>
-          <h5>About Us</h5>
-          <h5>Careers</h5>
-          <h5>Press Release</h5>
-          <h5>Amazon Cities</h5>
-          <h5>Gift a Smile</h5>
+          <h5><a href="" style={{color:"white"}}>About Us</a></h5>
+          <h5><a href="" style={{color:"white"}}>Careers</a></h5>
+          <h5><a href="" style={{color:"white"}}>Press Release</a></h5>
+          <h5><a href="" style={{color:"white"}}>Amazon Cities</a></h5>
+          <h5><a href="" style={{color:"white"}}>Gift a Smile</a></h5>
         </div>
         <div className="footer-row">
           <h3>Connect with Us</h3>
-          <h5>Facebook</h5>
-          <h5>Twitter</h5>
-          <h5>Instagram</h5>
+          <h5><a href="" style={{color:"white"}}>Facebook</a></h5>
+          <h5><a href="" style={{color:"white"}}>Twitter</a></h5>
+          <h5><a href="" style={{color:"white"}}>Instagram</a></h5>
         </div>
         <div className="footer-row">
           <h3>Make Money with Us</h3>
-          <h5>Sell on Amazon</h5>
-          <h5>Sell under Amazon Accelerator</h5>
-          <h5>Become an Affiliate</h5>
-          <h5>Advertise Your Products</h5>
-          <h5>Amazon Pay on Merchants</h5>
+          <h5><a href="" style={{color:"white"}}>Sell on Amazon</a></h5>
+          <h5><a href="" style={{color:"white"}}>Sell under Amazon Accelerator</a></h5>
+          <h5><a href="" style={{color:"white"}}>Become an Affiliate</a></h5>
+          <h5><a href="" style={{color:"white"}}>Advertise Your Products</a></h5>
+          <h5><a href="" style={{color:"white"}}>Amazon Pay on Merchants</a></h5>
         </div>
         <div className="footer-row">
           <h3>Let Us help You</h3>
-          <h5>COVID-19 and Amazon</h5>
-          <h5>Your Account</h5>
-          <h5>Returns Centre</h5>
-          <h5>100% App Download</h5>
-          <h5>Amazon App Download</h5>
+          <h5><a href="" style={{color:"white"}}>COVID-19 and Amazon</a></h5>
+          <h5><a href="" style={{color:"white"}}>Your Account</a></h5>
+          <h5><a href="" style={{color:"white"}}>Returns Centre</a></h5>
+          <h5><a href="" style={{color:"white"}}>100% App Download</a></h5>
+          <h5><a href="" style={{color:"white"}}>Amazon App Download</a></h5>
         </div>
       </div>
       <div className="footer-bottom">

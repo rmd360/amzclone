@@ -9,7 +9,7 @@ const Selection=({id,title,image,route})=>{
                 <b>{title}</b>
             </div>
             <img src={image} alt=""/>
-            <a href=''>shop now</a>
+            <a href='/'>shop now</a>
         </div>        
     );
 }
